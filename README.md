@@ -51,13 +51,13 @@
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/Szidelo/odin-sign-up-form.git>
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd <project-directory>
+    cd odin-sign-up-form
     ```
 
 3. Open `index.html` in a browser to view the signup page.
