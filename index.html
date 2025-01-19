@@ -16,9 +16,48 @@
 					</video>
 				</div>
 				<div class="form-section">
-					<form action="#" method="post"></form>
+					<form action="" method="post">
+						<div class="form-text">
+							Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
+						</div>
+						<div class="form-header">
+							<legend>Get started!</legend>
+						</div>
+						<div class="form-inputs">
+							<div class="form-control">
+								<label for="first-name">First name</label>
+								<input type="text" name="first-name" id="first-name" minlength="3" required />
+							</div>
+							<div class="form-control">
+								<label for="last-name">last name</label>
+								<input type="text" name="last-name" id="last-name" minlength="3" required />
+							</div>
+							<div class="form-control">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" required />
+							</div>
+							<div class="form-control">
+								<label for="phone">Phone</label>
+								<input type="numeric" name="phone" id="phone" minlength="10" pattern="^\d{10}$" required />
+							</div>
+							<div class="form-control">
+								<label for="password">Password</label>
+								<!-- regex for password -> (?=.*[A-Z]) => at least one uppercase; (?=.*\d) => at least one digit; .{8,} => at least 8 characters long -->
+								<input type="password" name="password" pattern="^(?=.*[A-Z])(?=.*\d).{8,}$" id="password" required />
+							</div>
+							<div class="form-control">
+								<label for="confirm-password">Confirm Password</label>
+								<input type="password" name="confirm-password" id="confirm-password" required />
+							</div>
+						</div>
+						<div class="submit-section">
+							<button class="btn-submit" type="submit">Create Account</button>
+							<p>Already have a account? <a class="log-in-link" href="#">Log in</a></p>
+						</div>
+					</form>
 				</div>
 			</div>
 		</main>
+		<script src="script.js"></script>
 	</body>
 </html>
