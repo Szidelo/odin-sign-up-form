@@ -2,6 +2,24 @@
 
 ---
 
+## Live Demo
+
+[**Try the Signup Page Here**](https://szidelo.github.io/odin-sign-up-form/)
+
+---
+
+## Screenshots
+
+### Desktop View
+
+![Desktop View](./screenshots/desktop.PNG)
+
+### Mobile View
+
+![Mobile View](./screenshots/mobile.PNG)
+
+---
+
 ## Features
 
 1. **Video Background**
